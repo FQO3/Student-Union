@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+h1 span {
+	top: 20px;
+	position: relative;
+	animation: loading 0.3s ease 0s infinite alternate;
+	font-size: 70px;
+	color: #B2E9F8;
+	text-shadow: 0 1px 0 #B3D1D9, 0 2px 0 #B3D1D9, 0 3px 0 #B3D1D9, 0 4px 0 #B3D1D9, 0 5px 0 #B3D1D9, 0 6px 0 #B3D1D9, 0 7px 0 #B3D1D9, 0 8px 0 #B3D1D9, 0 9px 0 #B3D1D9, 0 10px 10px rgba(0, 0, 0, 0.5);
+	/*text-shadow: 水平阴影位置(必须) 垂直阴影位置(必须) 模糊距离(可选) 阴影颜色(可选);
+       text-shadow: h-shadow v-shadow blur color; */
+}
+h1 span:nth-child(2) {
+	animation-delay: 0.1s;
+}
+h1 span:nth-child(3) {
+	animation-delay: 0.2s;
+}
+h1 span:nth-child(4) {
+	animation-delay: 0.3s;
+}
+h1 span:nth-child(5) {
+	animation-delay: 0.4s;
+}
+h1 span:nth-child(6) {
+	animation-delay: 0.5s;
+}
+@keyframes loading { /* 定义动画*/
+	100% {
+		top: -1px; /*字符上下浮动*/
+		text-shadow: 0 1px 0 #B3D1D9, 0 2px 0 #B3D1D9, 0 3px 0 #B3D1D9, 0 4px 0 #B3D1D9, 0 5px 0 #B3D1D9, 0 6px 0 #B3D1D9, 0 7px 0 #B3D1D9, 0 8px 0 #B3D1D9, 0 9px 0 #B3D1D9, 0 50px 25px rgba(0, 0, 0, 0.3);
+	}
+}
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body {
+	background-image: url("../pic/badge.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: #ECF9FA;
+	background-size: 600px;
+}
+.nav {
+	position: fixed;
+	z-index: 999;
+	height: 60px;
+	width: 100%;
+	background-image: linear-gradient(#B3EBFF, #68d4fc);
+	/*		background: #05BEFF;*/
+	box-shadow: 0 0 10px 1px gray;
+}
+.navlist li {
+	float: left;
+	height: 40px;
+	width: 130px;
+	line-height: 60px;
+	text-align: center;
+}
+.al {
+	color: black;
+	font-size: 25px;
+	display: block;
+}
+.al:hover {
+	background: #93E0F5;
+}
+.navlist {
+	width: 1000px;
+	margin: auto;
+}
+.centert {
+	text-align: center;
+}
+.grayt {
+	color: gray;
+}
+.white_textblock {
+	width: 500px;
+	height: auto;
+	padding: 20px;
+	background-color: rgba(240, 240, 240, 0.6);
+	box-shadow: 0 0 30px 30px rgba(240, 240, 240, 0.6);
+	color: black;
+}
+.purpleblock {
+	width: 100%;
+	height: 500px;
+	margin: 30px 0px;
+	background-color: #B5BEF1;
+	border-radius: 25px;
+	opacity: 0.6;
+	box-shadow: 0 0 60px 60px #B5BEF1;
+}
+.endblock {
+	width: 100%;
+	height: 40px;
+	margin: 0px 0px;
+	background-color: #79BDFB;
+	opacity: 0.6;
+	box-shadow: 0 0 30px 30px #79BDFB;
+}
+.endblock center {
+	padding-top: 10px;
+	font-size: 13px;
+}
+.greenblock {
+	width: 100%;
+	height: auto;
+	background-color: rgba(210, 236, 224, 0.6);
+	box-shadow: 0 0 30px 30px rgba(210, 236, 224, 0.6);
+	color: black;
+}
+.green_textblock {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	background-color: rgba(210, 236, 182, 0.3);
+	box-shadow: 0 0 10px 3px #BDBBBB;
+	border-radius: 25px;
+	color: black;
+}
+.blueblock {
+	width: 100%;
+	height: auto;
+	background-color: rgba(68, 114, 196, 0.3);
+	box-shadow: 0px 0px 30px 30px rgba(68, 114, 196, 0.3);
+	color: black;
+}
+.blue_textblock {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	background-color: rgba(68, 114, 196, 0.3);
+	box-shadow: 0px 0px 10px 3px #A3B2CD;
+	border-radius: 25px;
+	color: white;
+}
+.pinkblock {
+	width: 100%;
+	height: auto;
+	background-color: rgba(202, 136, 193, 0.3);
+	box-shadow: 0px 0px 30px 30px rgba(202, 136, 193, 0.3);
+	color: black;
+}
+.pink_textblock {
+	width: 80%;
+	height: auto;
+	padding: 20px;
+	background-color: rgba(253, 255, 163, 0.322);
+	box-shadow: 0px 0px 10px 3px rgba(150, 151, 99, 0.322);
+	border-radius: 25px;
+	color: black;
+}

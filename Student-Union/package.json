@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "www.js",
+  "scripts": {
+    "dev": "nodemon www.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parse": "^0.4.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jquery": "^3.6.4",
+    "jquery-lazyload": "^1.9.7",
+    "nodemon": "^2.0.21"
+  }
+}
