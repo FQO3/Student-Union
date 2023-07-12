@@ -15,7 +15,7 @@
             "./pic/index/badge.png",
             "./pic/index/sing.png",
             "./pic/index/sport.jpg",
-            "./pic/index/占位图.png"
+            "./pic/index/red5.jpg"
         ]
         //获取时间函数的起始下标
         let i = 0;
