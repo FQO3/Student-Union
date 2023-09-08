@@ -32,8 +32,8 @@ app.get('/', function (req, res) {
 
 app.use(express.static('client/'));
 
-const server = app.listen(81, function () {
-	console.log("服务器已启动, 监听81端口,http://127.0.0.1:81");
+const server = app.listen(2398, function () {
+	console.log("服务器已启动, 监听2398端口,http://127.0.0.1:2398");
 })
 function checkPC(req){
     // var agentstr = navigator.userAgent.toLowerCase();
