@@ -48,22 +48,22 @@ body {
 .nav {
 	position: fixed;
 	z-index: 999;
-	height: 60px;
+	height: 90px;
 	width: 100%;
-	background-image: linear-gradient(#B3EBFF, #68d4fc);
+	background-image: linear-gradient(#B3EBFF, #a4e7ff);
 	/*		background: #05BEFF;*/
-	box-shadow: 0 0 10px 1px gray;
+	box-shadow: 0 0 3px 1px rgb(200, 200, 200);
 }
 .navlist li {
 	float: left;
 	height: 40px;
 	width: 130px;
-	line-height: 60px;
+	line-height: 90px;
 	text-align: center;
 }
 .al {
 	color: black;
-	font-size: 25px;
+	font-size: 30px;
 	display: block;
 }
 .al:hover {
