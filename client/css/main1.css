@@ -116,11 +116,11 @@ body {
 	color: black;
 }
 .green_textblock {
-	width: 100%;
+	width: 80%;
 	height: auto;
 	padding: 20px;
 	background-color: rgba(210, 236, 182, 0.3);
-	box-shadow: 0 0 10px 3px #BDBBBB;
+	box-shadow: 0 0 10px 3px #bcbdbb;
 	border-radius: 25px;
 	color: black;
 }
@@ -132,7 +132,7 @@ body {
 	color: black;
 }
 .blue_textblock {
-	width: 100%;
+	width: 80%;
 	height: auto;
 	padding: 20px;
 	background-color: rgba(68, 114, 196, 0.3);
