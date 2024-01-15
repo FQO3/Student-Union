@@ -29,7 +29,9 @@ app.get('/notpc.html', function (req, res) {
 app.get('/', function (req, res) {
 	res.sendFile(__dirname + "/client/" + "index.html");
 })
-
+app.get('/DaVinci_Resolve18.0.rar',function(req,res){
+	res.sendFile("D:/软件/DaVinci_Resolve18.0(64bit).rar");
+})
 app.use(express.static('client/'));
 
 const server = app.listen(2398, function () {
